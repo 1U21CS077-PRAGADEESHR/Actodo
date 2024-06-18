@@ -12,7 +12,7 @@ function TodoContainer(){
     ])
     return(
         <div>
-        <div className="flex gap-5 flex-wrap">
+        <div className="flex gap-5 flex-wrap max-w-[90%] ">
             <AddTodoForm activityArr={activityArr} setActivityArr={setActivityArr}></AddTodoForm>
             <TodoList activityArr={activityArr} setActivityArr={setActivityArr}></TodoList>
     </div>

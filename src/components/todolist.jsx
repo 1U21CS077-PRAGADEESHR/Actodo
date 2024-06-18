@@ -8,7 +8,7 @@ function TodoList(props){
 
 
     return(
-        <div className="bg-[#E8B38C] border rounded-md p-2 flex-grow">
+        <div className="bg-[#E8B38C] border rounded-md p-2 flex-grow max-md:flex-grow-0">
         <h1 className="text-2xl font-medium">Today's Activity</h1>
         {activityArr.length==0?<p>You haven't added any activity yet</p>:""}
         
